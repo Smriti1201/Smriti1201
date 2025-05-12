@@ -1,5 +1,5 @@
 // Step 1: Set Up Environment
-/*Fs = 8000; // Sampling frequency (Hz)
+Fs = 8000; // Sampling frequency (Hz)
 N = 2048;  // Number of samples
 t = (0:N-1) / Fs; // Time vector
 
@@ -31,8 +31,8 @@ subplot(3,1,2); plot(t, mixed_signal); title('Signal + Noise');
 subplot(3,1,3); plot(t, e); title('Filtered Signal (Noise Reduced)');
 
 disp("ANC implementation completed successfully!");
-*/
 
+//for real time view install external tools like SoX or PyScilab to handle real-time signals.
 // Step 1: Set Up Real-Time Parameters
 clc;
 close;
